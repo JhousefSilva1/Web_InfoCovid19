@@ -30,7 +30,7 @@ body{
 .info-QueEsCovid{
     padding: 2%;
     margin: 2%;
-    width: 30%;
+    width: 28%;
     background-color:mediumseagreen;
     display: inline-block;
 }
@@ -61,10 +61,13 @@ body{
     text-align: justify;
 }
 
+
+
+
 .info-ComoSePropaga{
     padding: 2%;
     margin: 2%;
-    width: 30%;
+    width: 28%;
     background-color:mediumseagreen;
     display: inline-block;
 }
@@ -94,3 +97,31 @@ body{
 }
 
 
+.info-QueOcurreSiCovid{
+    padding: 2%;
+    margin: 2%;
+    width: 28%;
+    background-color:mediumseagreen;
+    display: inline-block;
+}
+.title-QueOcurre{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+}
+.info-QueOcurreSiCovid .title-QueOcurre{
+    background-color:transparent;
+    width: 100%;
+}
+.info-QueOcurreSiCovid .img-QueOcurre{
+    display: flex;
+    width: 100%;
+}
+.info-QueOcurreSiCovid .par-QueOcurre{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
