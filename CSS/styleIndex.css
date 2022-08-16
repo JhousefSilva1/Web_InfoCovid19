@@ -1,39 +1,62 @@
 *{
-    margin: 0;
-    padding: 0;
+    background-color: rgb(164, 181, 182);
+    margin-top: 5%;
 }
 body{
+    
     font-size: 62.5%;
 }
-header {
-    padding: 50PX;
-    background: rgba(0,0,0,0.9);
+.info-covid{
+    padding-top: 2%;
+    
+}
+.title-info-covid{
+    color: white;
+    text-align: center;
+    width: auto;
+    font-size: 4.9rem;
+    
+}
+.info-covid .title-info-covid{
+    padding-top: 2%;
+    background-color:rgb(173, 72, 140);
+    height: 15rem;
+    font-weight: bold;   
+}
+
+
+
+
+.info-QueEsCovid{
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+    background-color:mediumseagreen;
+}
+.title-queEsCovid{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.info-QueEsCovid .title-queEsCovid{
+    
+    background-color:transparent;
     width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
-  }
-  
-  nav ul {
-    list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
-  }
-  
-  nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-  }
-  
-  nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav ul li:hover {
-    background: #0e99c4;
-  }
+    
+}
+.info-QueEsCovid .img-queEsCovid{
+    display: flex;
+    width: 100%;
+}
+.info-QueEsCovid .par-queEsCovid{
+
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+

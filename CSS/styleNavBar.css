@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    padding: 4.0rem;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+  }
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+    
+    background-color:black;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  
+  nav ul li {
+    background-color:black;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 2.0rem;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    
+  }
+  
+  nav ul li:hover {
+    background: #0d9de0;
+    color:#fff;
+    list-style: none;
+  }
