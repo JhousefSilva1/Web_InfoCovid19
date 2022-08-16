@@ -32,6 +32,7 @@ body{
     margin: 2%;
     width: 30%;
     background-color:mediumseagreen;
+    display: inline-block;
 }
 .title-queEsCovid{
     color:azure;
@@ -59,4 +60,37 @@ body{
     font-size: 1.9rem;
     text-align: justify;
 }
+
+.info-ComoSePropaga{
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+    background-color:mediumseagreen;
+    display: inline-block;
+}
+
+.title-ComoSePropaga{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info-ComoSePropaga .title-ComoSePropaga{
+    background-color:transparent;
+    width: 100%;
+}
+.info-ComoSePropaga .img-ComoSePropaga{
+    display: flex;
+    width: 100%;
+}
+
+.info-ComoSePropaga .par-ComoSePropaga{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
 
