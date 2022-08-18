@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/styleNavBar.css">
     <link rel="stylesheet" href="/CSS/stylePrevenir.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header class="nav-bar">
         <nav>
@@ -21,5 +26,133 @@
         </nav>
 
     </header>
-</body>
+    <section class="seccion-banner">
+        <div class="container">
+            <h2 style="padding-top: 120px"></h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ol style="background-color: transparent;" class="carousel-indicators">
+
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
+
+                <!-- Entorno para las diapositivas -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img style="height: 720px;"
+                            src="https://www.redcross.org/content/dam/redcross/cruz-roja/news-articles/coronavirus_spanish.png"
+                            alt="Paisaje-01" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://blogs.iadb.org/agua/wp-content/uploads/sites/8/2020/03/WWD2020_Banner1-V01_FB-LI-1200x628-SPA-1024x536.jpg"
+                            alt="Paisaje-02" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.comunidad.madrid/sites/default/files/styles/colorbox_modal/public/doc/sanidad/prev/covid19vuln_cartel_pisos_compartidos.jpg?itok=D3Pb4zES"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.unicef.org/nicaragua/sites/unicef.org.nicaragua/files/styles/hero_desktop/public/portada%20sanolimpio.JPG?itok=Sd3bprm4"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.fda.gov/files/how-you-can-make-a-difference-1600x900-Spanish.png"
+                            alt="Paisaje-02" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.inclusion.gob.ec/wp-content/uploads/2020/03/coronavirus-prevencion.jpg"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;" src="https://i.ytimg.com/vi/nOVsLX7yn4w/maxresdefault.jpg"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                </div>
+
+                <!-- Controles izquierda - derecha -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="info-prevenir">
+        <h1 class="title-prevenir">TENEMOS INFORMACION NECESARIA PARA TI</h1>
+        <iframe class="prevenir-video" width="100%" height="1080px"
+            src="https://www.youtube-nocookie.com/embed/pRVea4ZYm28" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <section class="Cards-previr">
+        <h1 class="title-cards-prevenir">Mira las Tarjetas de Prevención</h1>
+    </section>
+
+
+    <section class="card1">
+        <h1 class="title-car1">LAVADO DE MANOS</h1>
+        <img class="img-card1"
+            src="https://i1.wp.com/www.pediatriasalud.com/wp-content/uploads/2017/11/Lavado-de-manos-si.jpg?fit=800%2C450&ssl=1"
+            alt="">
+        <p class="par-card1">
+            Lavarse las manos puede mantenerlo sano y prevenir la propagación de infecciones respiratorias y diarreicas
+            de una persona a otra. Los microbios se pueden propagar de una persona a otra persona o de las superficies
+            cuando usted:
+
+            Se toca los ojos, la nariz y la boca con las manos sin lavar.
+            Prepara o consume alimentos o bebidas con las manos sin lavar.
+            Toca una superficie o un objeto contaminado.
+            Se suena la nariz o se cubre la nariz y la boca con las manos cuando tose o estornuda y luego le toca las
+            manos a otra persona o toca objetos de uso común.
+        </p>
+    </section>
+    <section class=card2>
+        <h1 class="title-card2">DISTANCIAMIENTO SOCIAL</h1>
+        <img class="img-card2"
+            src="https://bancos.salud.gob.ar/sites/default/files/2021-02/covid19-cuidate-es-cuidarnos-2021-02-01_6c_vista.jpg"
+            alt="">
+        <p class="card2-par">
+            Las familias están regresando gradualmente a algunas de las actividades que habían interrumpido cuando
+            empezó la
+            pandemia del COVID-19. Sin embargo, ya que el virus continúa propagándose, es importante que todos continúen
+            con
+            el distanciamiento social.
+        </p>
+    </section>
+    <section class="card3">
+        <h1 class="title-card3">USO DE MASCARILLA</h1>
+        <img class="img-card3"
+            src="https://www.allsaintsroffey.org.uk/content/pages/uploaded_images/1639088720-Xoz2.png" alt="">
+        <p class="par-card3">
+            Los países de la región coinciden en que el uso general del barbijo y cumplir la cuarentena de manera
+            consciente, con todas las medidas que prevención y control, son clave y fundamentales para detener el
+            contagio de la pandemia del coronavirus (Covid-19), que afecta a todo el mundo.
+        </p>
+    </section>
+
 </html>

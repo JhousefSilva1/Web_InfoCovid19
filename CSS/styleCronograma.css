@@ -1,0 +1,31 @@
+body{
+    font-size: 62.5%;
+}
+
+.cronogramas{
+    padding-top: 15%;
+    width: 100%;
+  
+}
+.title-cronogramas{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.cronogramas .title-cronogramas{
+    background-color:rgb(173, 72, 140);
+    height: 9rem;
+    font-weight: bold;
+}
+
+.cronogramas .img-cronogramas{
+    display: flex;
+    width: 80%;
+    padding: 3%;
+    margin: 3%;
+}
+
+

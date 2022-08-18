@@ -1,0 +1,145 @@
+body{
+    font-size: 62.5%;
+}
+.info-prevenir{
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    
+}
+.title-prevenir{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.info-prevenir .title-prevenir{
+    background-color:rgb(173, 72, 140);
+    height: 15rem;
+    font-weight: bold;
+}
+
+
+.Cards-previr{
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+.title-cards-prevenir{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+}
+.Cards-previr .title-cards-prevenir{
+    background-color:rgb(173, 72, 140);
+    padding-top: 3%;
+    height: 15rem;
+    font-weight: bold;
+}
+
+.card1{
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+
+
+.title-car1{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+}
+.card1 .title-car1{
+    
+    padding-top: 3%;
+    height: 15rem;
+    font-weight: bold;
+}
+
+.card1 .img-card1{
+    display: flex;
+    width: 100%;
+}
+.card1 .par-card1{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
+.card2 {
+
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+.card2 .title-card2{
+    padding-top: 3%;
+    height: 15rem;
+    font-weight: bold;
+    color:aliceblue;
+    text-align: center;
+
+}
+.card2 .img-card2{
+    display: flex;
+    width: 100%;
+}
+.card2 .card2-par{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
+.card3 {
+
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+.card3 .title-card3{
+    padding-top: 3%;
+    height: 15rem;
+    font-weight: bold;
+    color:aliceblue;
+    text-align: center;
+
+}
+.card3 .img-card3{
+    display: flex;
+    width: 100%;
+}
+.card3 .card3-par{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+.card3 .par-card3{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}

@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/styleVacunas.css">
     <link rel="stylesheet" href="/CSS/styleNavBar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header class="nav-bar">
         <nav>
@@ -21,5 +26,130 @@
         </nav>
 
     </header>
+
+    <section class="seccion-banner">
+        <div class="container">
+            <h2 style="padding-top: 120px"></h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ol style="background-color: transparent;" class="carousel-indicators">
+
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                </ol>
+
+                <!-- Entorno para las diapositivas -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img style="height: 720px;"
+                            src="https://www.redcross.org/content/dam/redcross/cruz-roja/news-articles/coronavirus_spanish.png"
+                            alt="Paisaje-01" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://blogs.iadb.org/agua/wp-content/uploads/sites/8/2020/03/WWD2020_Banner1-V01_FB-LI-1200x628-SPA-1024x536.jpg"
+                            alt="Paisaje-02" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.comunidad.madrid/sites/default/files/styles/colorbox_modal/public/doc/sanidad/prev/covid19vuln_cartel_pisos_compartidos.jpg?itok=D3Pb4zES"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.unicef.org/nicaragua/sites/unicef.org.nicaragua/files/styles/hero_desktop/public/portada%20sanolimpio.JPG?itok=Sd3bprm4"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.fda.gov/files/how-you-can-make-a-difference-1600x900-Spanish.png"
+                            alt="Paisaje-02" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;"
+                            src="https://www.inclusion.gob.ec/wp-content/uploads/2020/03/coronavirus-prevencion.jpg"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img style="height: 720px;" src="https://i.ytimg.com/vi/nOVsLX7yn4w/maxresdefault.jpg"
+                            alt="Paisaje-03" style="width:100%;">
+                    </div>
+
+                </div>
+
+                <!-- Controles izquierda - derecha -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="info-vacunas">
+        <h1 class="title-vacunas">MIRA EL SIGUIENTE VIDEO!</h1>
+        <iframe width="100%" height="1080px" src="https://www.youtube.com/embed/4HOujuyFh5s"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+
+    <section class="vacunas">
+        <h1 class="title-vacunas">TENEMOS LAS SIGUIENTES VACUNAS</h1>
+        <section class="vacuna-sinopharm">
+            <h1 class="title-sinopharm">SINOPHARM</h1>
+            <img class="img-sinopharm"
+                src="https://static.euronews.com/articles/stories/05/18/82/82/1024x538_cmsv2_de13abf6-6f77-59e8-a62a-2b97a5ed9112-5188282.jpg"
+                alt="">
+            <p class="par-sinopharm">
+                En un gran ensayo internacional de fase III se ha demostrado que la administración de dos dosis de esta
+                vacuna con un intervalo de 21 días protege con una eficacia del 79% contra la infección sintomática por
+                el SARS-CoV-2 al cabo de 14 o más días después de la fecha de administración de la segunda dosis. En
+                cuanto a la prevención de la hospitalización, la eficacia de la vacuna fue del 79%
+            </p>
+        </section>
+
+        <section class="vacuna-pfizer">
+            <h1 class="title-pfizer">PFIZER</h1>
+            <img src="" alt="">
+            <p class="par-pfizer">
+                La vacuna contra el COVID-19 de Pfizer-BioNTech para personas de 5 a 11 años de edad y la fórmula
+                actualizada de la vacuna contra el COVID-19 de Pfizer-BioNTech para personas de 12 años de edad o más
+                contienen los siguientes ingredientes. Si bien los ingredientes son los mismos para todas las edades,
+                las personas de 12 años de edad o más reciben una dosis más alta que los niños de 5 a 11 años de edad.
+            </p>
+        </section>
+
+        <section class="vacuna-Moderna">
+            <h1 class="title-moderna">MODERNA</h1>
+            <img src="" alt="">
+            <p class="par-moderna">
+                La vacuna contra el COVID-19 de Pfizer-BioNTech para personas de 5 a 11 años de edad y la fórmula
+                actualizada de la vacuna contra el COVID-19 de Pfizer-BioNTech para personas de 12 años de edad o más
+                contienen los siguientes ingredientes. Si bien los ingredientes son los mismos para todas las edades,
+                las personas de 12 años de edad o más reciben una dosis más alta que los niños de 5 a 11 años de edad.
+            </p>
+        </section>
+
+
+
+    </section>
 </body>
+
 </html>

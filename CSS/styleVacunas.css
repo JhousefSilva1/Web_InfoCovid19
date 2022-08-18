@@ -1,0 +1,156 @@
+body{
+    font-size: 62.5%;
+}
+.info-vacunas{
+    width: 95%;
+    padding: 2%;
+    margin: 2%;
+    
+}
+.title-vacunas{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.info-vacunas .title-vacunas{
+    background-color:rgb(173, 72, 140);
+    height: 15rem;
+    font-weight: bold;
+}
+
+
+.vacunas{
+    width: 100%;
+    
+}
+.title-vacunas{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    
+}
+.vacunas .title-vacunas{
+    background-color:rgb(173, 72, 140);
+    height: 15rem;
+    font-weight: bold;
+}
+
+
+
+.vacuna-sinopharm{
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.title-sinopharm{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.vacuna-sinopharm .title-sinopharm{
+    background-color:transparent;
+    height: 15rem;
+    font-weight: bold;
+}
+.vacuna-sinopharm .img-sinopharm{
+    display: flex;
+    width: 100%;
+}
+
+.vacunas .par-sinopharm{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
+
+
+.vacuna-pfizer{
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.title-pfizer{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.vacuna-pfizer .title-pfizer{
+    background-color:transparent;
+    height: 15rem;
+    font-weight: bold;
+}
+.vacuna-pfizer .img-pfizer{
+    display: inline-block;
+    width: 100%;
+}
+
+.vacunas .par-pfizer{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
+
+
+
+
+.vacuna-Moderna{
+    background-color:rgb(45, 127, 141);
+    width: 28%;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.title-moderna{
+    color:azure;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.9rem;
+    width: auto;
+    padding-top: 3%;
+}
+.vacuna-Moderna .title-moderna{
+    background-color:transparent;
+    height: 15rem;
+    font-weight: bold;
+}
+.vacuna-Moderna .img-pfizer{
+    display: inline-block;
+    width: 100%;
+}
+
+.vacuna-Moderna .par-moderna{
+    background-color:transparent;
+    padding: 1%;
+    margin: 1%;
+    color:aliceblue;
+    font-size: 1.9rem;
+    text-align: justify;
+}
+
+
