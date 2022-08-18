@@ -1,0 +1,12 @@
+INFORMACION DEL PROYECTO
+
+--------------------------------------------
+El proyecto esta realizado en HTML y CSS, está con boostrap y con justify
+en todos los archivos CSS, es CSS puro, en los archivos HTML en la parte del HEAD, estan
+vinculados hacia archivos bootstrap.
+
+las imagenes y videos de las paginas HTML, estan indexadas con URL.
+
+Tiene informacion basica de covid 19
+
+En los archivos CSS, se están utilizando propiedades de color, tamaño, back, etc
